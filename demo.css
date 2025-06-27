@@ -1,0 +1,16 @@
+.parent {
+  border: 1px solid red;
+  display: flex;
+  gap: 1rem;
+}
+
+.child {
+  display: block;
+  padding: 0 2rem;
+  border: 1px solid green;
+}
+
+#unique-child {
+  flex-grow: 1;
+  border: 1px solid blue;
+}
